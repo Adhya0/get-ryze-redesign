@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+ 
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: rgb(11, 58, 5);
+  border-bottom: 1px solid #f3f3f3;
+  
+  
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  
+  
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color:white;
+}
+
+.hero {
+  background: linear-gradient(135deg, #022705, #123f1c);
+  color:white;
+  text-align: center;
+   box-shadow:inset 0 4px 6px rgb(3, 32, 2); 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-success {
+  background: #021d06;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #0a661e;
+  color:white;
+  margin-left: 10px;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ 
+}
+
+.card {
+  padding: 30px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0a380e, #098b28);
+  color:white ;
+  border: 1px solid rgb(5, 34, 3);
+  box-shadow:0 4px 6px rgb(1, 31, 5);
+  
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  background: #022705;
+  color: white;
+   box-shadow:inset 0 4px 6px rgb(3, 32, 2); 
+
+}
+
+.contact {
+  background: white;
+  text-align: center;
+  color:black;
+  
+  
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 2px solid #052e0c;
+  background-color:white;
+  color:black; 
+ 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+ 
+} 
+.navbar{
+  background-color: #042c07;
+  
+ 
+}
+
+
